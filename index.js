@@ -76,7 +76,7 @@ function Firework(sx, sy, tx, ty) {
     this.coordinates.push([this.x, this.y]);
   }
   this.angle = Math.atan2(ty - sy, tx - sx);
-  this.speed = 0.1;
+  this.speed = 2;
   this.acceleration = 1.05;
   this.brightness = random(40, 80);
   // circle target indicator radius
@@ -262,7 +262,7 @@ window.onload = function () {
     box.addEventListener("click", openBox, false);
     box.addEventListener("click", () => {
       if (audio.paused) {
-        audio.volume = 0.2;
+        audio.volume = 0.5;
         audio.play();
         icon.classList.remove('fa-volume-up');
         icon.classList.add('fa-volume-mute');

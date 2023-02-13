@@ -33,8 +33,9 @@ canvas#canvas {
 }
 
 div#beach {
-  background-image: url(https://dl.dropbox.com/s/oe0oce2udq44bj5/beachsil2.png);
+  /*background-image: url(https://dl.dropbox.com/s/oe0oce2udq44bj5/beachsil2.png);*/
   /* background-size: cover; */
+  background-image: url(beachsil2.png);
   background-position: bottom right;
   background-size: 1700px;
   background-repeat: no-repeat;
@@ -123,7 +124,7 @@ div#sea {
   position: absolute;
   color: #fff;
   width: 100%;
-  content: "Open Me!";
+  content: "Give you";
   left: 0;
   bottom: 0;
   font-size: 24px;
